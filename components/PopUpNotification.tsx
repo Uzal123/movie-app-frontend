@@ -1,7 +1,7 @@
 import React, { FC } from "react";
-import CheckIcon from "@/public/icons/Check.svg";
-import Cross from "@/public/icons/Cross.svg";
-import LoadingSpinner from "@/public/icons/Loading.svg";
+import CheckIcon from "@/components/icons/Check";
+import Cross from "@/components/icons/Cross";
+import LoadingSpinner from "@/components/icons/Loading";
 import { INotification } from "@/types/types";
 
 interface PopUpNotificationProps {
