@@ -5,7 +5,7 @@ import AudiLayout from "@/components/AudiLayout";
 import axios from "axios";
 import { ShowType } from "@/types/types";
 
-const index = () => {
+const ShowPageDetails = () => {
   const params = useParams();
   const { id } = params;
 
@@ -22,7 +22,7 @@ const index = () => {
   };
 
   useEffect(() => {
-    if (id) getShowById();
+    getShowById();
   }, [id]);
 
   return (
@@ -53,4 +53,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default ShowPageDetails;

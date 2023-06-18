@@ -58,7 +58,7 @@ export default function Home() {
             <Show showDetails={movie} key={index} />
           ))}
       </div>
-      <h1 className="text-2xl font-bold my-4">Tomorrow's Shows</h1>
+      <h1 className="text-2xl font-bold my-4">Tomorrow&aposs Shows</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {nextDayMovies &&
           nextDayMovies.map((movie, index) => (
